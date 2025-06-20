@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-security",
     "@nuxt/eslint",
+    "@nuxt/ui",
   ],
 
   typescript: {
