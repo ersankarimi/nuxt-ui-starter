@@ -1,5 +1,32 @@
+<script lang="ts" setup>
+const site = useSiteConfig();
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
+  <div
+    class="bg-gray-900 h-screen w-screen flex flex-col items-center justify-center gap-5"
+  >
+    <h1
+      class="font-bold text-2xl text-primary md:text-3xl"
+    >
+      Welcome to {{ site.name }}
+    </h1>
+    <div class="flex items-center gap-4">
+      <UButton
+        label="Nuxt Docs"
+        icon="i-heroicons-document-text"
+        to="https://nuxt.com"
+        target="_blank"
+        external
+      />
+      <UButton
+        label="Nuxt UI Docs"
+        variant="outline"
+        icon="i-heroicons-book-open"
+        to="https://ui2.nuxt.com"
+        target="_blank"
+        external
+      />
+    </div>
   </div>
 </template>
