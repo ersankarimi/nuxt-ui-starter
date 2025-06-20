@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-ui-starter",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "engines": {
+    "node": ">=20.19.2"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --dotenv .env.local",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "dev:generate": "nuxt generate --dotenv .env.development",
+    "prod:generate": "nuxt generate --dotenv .env.production",
+    "dev:build": "nuxt build --dotenv .env.development",
+    "prod:build": "nuxt build --dotenv .env.production",
+    "prod:generate:preview": "nuxt generate --dotenv .env.production && nuxt preview",
+    "dev:generate:preview": "nuxt generate --dotenv .env.development && nuxt preview",
+    "prod:build:preview": "nuxt build --dotenv .env.production && nuxt preview",
+    "dev:build:preview": "nuxt build --dotenv .env.development && nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.4.1",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.14.0",
+    "@nuxt/image": "1.10.0",
+    "@nuxtjs/seo": "3.0.3",
+    "nuxt": "^3.16.0",
+    "nuxt-security": "2.2.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.10.1",
+    "eslint": "^9.22.0",
+    "eslint-plugin-format": "^1.0.1",
+    "typescript": "^5.8.3"
+  }
+}
