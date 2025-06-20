@@ -4,7 +4,7 @@ import process from "node:process";
 export default defineNuxtConfig({
   compatibilityDate: "2025-06-21",
   devtools: { enabled: true },
-  spaLoadingTemplate: true,
+  // spaLoadingTemplate: true,
   css: ["~/assets/css/app.css"],
   app: {
     head: {
@@ -90,7 +90,7 @@ export default defineNuxtConfig({
     // * DEFAULT: siteConfig.env === 'production' || process.env.NODE_ENV === 'production'
     indexable: process.env.NUXT_SITE_ENV === "production",
     // * DEFAULT: siteName.env || process.env.NUXT_SITE_NAME
-    // name: process.env.NUXT_SITE_NAME,
+    name: process.env.NUXT_SITE_NAME,
     defaultLocale: "id",
   },
 
