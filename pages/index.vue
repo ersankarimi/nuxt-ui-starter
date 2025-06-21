@@ -6,11 +6,20 @@ const site = useSiteConfig();
   <div
     class="bg-gray-900 h-screen w-screen flex flex-col items-center justify-center gap-5"
   >
-    <h1
-      class="font-bold text-2xl text-primary md:text-3xl"
-    >
-      Welcome to {{ site.name }}
-    </h1>
+    <div class="flex flex-col gap-4 items-center justify-center">
+      <UBadge
+        size="sm"
+        class="w-fit"
+        variant="subtle"
+      >
+        Nuxt 3 + Nuxt UI 2
+      </UBadge>
+      <h1
+        class="font-bold text-2xl text-primary md:text-3xl"
+      >
+        Welcome to {{ site.name }}
+      </h1>
+    </div>
     <div class="flex items-center gap-4">
       <UButton
         label="Nuxt Docs"
