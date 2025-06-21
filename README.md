@@ -1,4 +1,4 @@
-# Nuxt 3 Basic Starter
+# Nuxt + UI Starter
 
 A minimal **Nuxt 3** starter template with essential configurations for building
 modern web applications. This template includes useful Nuxt modules, security
@@ -21,7 +21,7 @@ yarn dlx create-ersn-app
 bunx create-ersn-app
 ```
 
-Then select the **Nuxt 3 Basic Starter** template from the list. 🚀
+Then select the **Nuxt + UI Starter** template from the list. 🚀
 
 ---
 
