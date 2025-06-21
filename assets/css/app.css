@@ -2,13 +2,23 @@
 * NOTE: Make sure you set the language to PostCSS in your code editor to get better syntax highlighting and formatting with the eslint.
 */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@nuxt/ui";
 
-@layer base {
-  body {
-    @apply font-sans;
-  }
+@theme static {
+  --font-sans: "Inter", sans-serif;
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    font-family: var(--font-sans);
+  }
+
+  /* https://tailwindcss.com/docs/upgrade-guide#buttons-use-the-default-cursor */
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
