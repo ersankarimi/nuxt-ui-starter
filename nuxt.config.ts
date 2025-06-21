@@ -40,7 +40,7 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true,
-    typeCheck: false,
+    typeCheck: true,
     tsConfig: {
       exclude: ["./github/workflows"],
     },
@@ -51,6 +51,8 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+
+  ui: {},
 
   // Nuxt Icon Configuration (https://github.com/nuxt/icon?tab=readme-ov-file)
   icon: {
