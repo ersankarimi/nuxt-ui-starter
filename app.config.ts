@@ -1,6 +1,4 @@
 export default defineAppConfig({
-  ui: {
-    primary: "green",
-    gray: "slate",
-  },
+  // https://ui.nuxt.com/getting-started/theme
+  ui: {},
 });
