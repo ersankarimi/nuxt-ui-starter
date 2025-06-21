@@ -12,7 +12,7 @@ const site = useSiteConfig();
         class="w-fit"
         variant="subtle"
       >
-        Nuxt 3 + Nuxt UI 3
+        Nuxt 4 + Nuxt UI 3
       </UBadge>
       <h1
         class="font-bold text-2xl text-primary md:text-3xl"
