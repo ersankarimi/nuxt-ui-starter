@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   // spaLoadingTemplate: true,
   css: ["~/assets/css/app.css"],
+  future: {
+    compatibilityVersion: 4,
+  },
   app: {
     head: {
       titleTemplate: "%s %separator %siteName",
