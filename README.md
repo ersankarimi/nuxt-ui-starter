@@ -1,8 +1,9 @@
-# Nuxt + UI Starter
+# Nuxt + UI Starter – `nuxt3-ui2`
 
-A minimal **Nuxt 3** starter template with essential configurations for building
-modern web applications. This template includes useful Nuxt modules, security
-enhancements, and predefined scripts for easy development and deployment.
+> 🧩 This branch contains the **Nuxt 3 + Nuxt UI 2** starter template.
+> For other setups, see the [available branches](https://github.com/ersankarimi/nuxt-ui-starter/branches).
+
+A minimal **Nuxt 3** starter template using **Nuxt UI v2**, with essential configurations for building modern web applications. Includes useful Nuxt modules, security enhancements, and predefined scripts for easy development and deployment.
 
 ---
 
@@ -27,8 +28,7 @@ Then select the **Nuxt + UI Starter** template from the list. 🚀
 
 ## 📦 Manual Installation
 
-If you prefer to set up manually, you can clone the repository and install
-dependencies:
+If you prefer to set up manually, you can clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/ersankarimi/nuxt-ui-starter.git your-project
@@ -40,6 +40,12 @@ npm install
 yarn install
 # or
 bun install
+```
+
+Then checkout the correct branch:
+
+```bash
+git checkout nuxt3-ui3
 ```
 
 ---
@@ -62,15 +68,12 @@ bun run dev
 
 ## 🛠 Environment Files
 
-This template supports multiple environment configurations. Make sure to create
-the necessary `.env` files before running the project:
+This template supports multiple environment configurations. Make sure to create the necessary `.env` files before running the project:
 
-- **`.env.local`** → Used for local development (`pnpm dev`).
-- **`.env.development`** → Used for development builds (`pnpm dev:build`,
-  `pnpm dev:generate`).
-- **`.env.production`** → Used for production builds (`pnpm prod:build`,
-  `pnpm prod:generate`).
-- **`.env.example`** → Provides a reference for required environment variables.
+- **`.env.local`** → Used for local development (`pnpm dev`)
+- **`.env.development`** → Used for development builds (`pnpm dev:build`, `pnpm dev:generate`)
+- **`.env.production`** → Used for production builds (`pnpm prod:build`, `pnpm prod:generate`)
+- **`.env.example`** → Provides a reference for required environment variables
 
 ---
 
@@ -139,14 +142,9 @@ pnpm dev:build:preview
 
 ## 🔍 Linting & Formatting
 
-Since ESLint is already configured to format the code, there's no need for
-duplicating functionality with Prettier.
+This project follows a strict linting and formatting setup using **ESLint** with **Antfu's ESLint config**.
 
-If you have Prettier installed in your editor, we recommend disabling it to
-avoid conflicts.
-
-This project follows a strict linting and formatting setup using **ESLint** with
-**Antfu's ESLint config**:
+If you have Prettier installed in your editor, we recommend disabling it to avoid conflicts.
 
 ### **Run Lint Check**
 
@@ -172,38 +170,27 @@ yarn lint:fix
 bun run lint:fix
 ```
 
-> The linting rules include best practices for **Vue 3**, **TypeScript**, and
-> **ESLint recommendations**, ensuring consistent code quality.
+---
+
+## ⚙ Configuration
+
+Edit `nuxt.config.ts` to customize the setup, enable/disable modules, and tweak performance settings.
 
 ---
 
-## 📂 Folder Structure
+## 📂 Other Templates
 
-```bash
-📦 nuxt-ui-starter
- ┣ 📂 .nuxt/        # Auto-generated Nuxt build files
- ┣ 📂 public/       # Static assets
- ┣ 📂 components/   # Vue components
- ┣ 📂 pages/        # Nuxt pages (auto-routing)
- ┣ 📂 layouts/      # Layout templates
- ┣ 📂 assets/       # Global styles & images
- ┣ 📂 middleware/   # Nuxt middleware
- ┣ 📂 composables/  # Reusable functions (auto-imported)
- ┣ 📂 plugins/      # Nuxt plugins
- ┣ 📜 nuxt.config.ts # Nuxt configuration
- ┣ 📜 .env.example  # Example environment file
- ┗ 📜 package.json   # Project dependencies & scripts
-```
+This repository contains multiple Nuxt + UI setups. To use a different one, switch to the corresponding branch:
 
----
-
-## 🛠 Configuration
-
-Edit `nuxt.config.ts` to customize the setup, enable/disable modules, and tweak
-performance settings.
+| Template               | Branch                                                                       |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| **Nuxt 3 + Nuxt UI 2** | `nuxt3-ui2` ← you are here                                                   |
+| Nuxt 3 + Nuxt UI 3     | [`nuxt3-ui3`](https://github.com/ersankarimi/nuxt-ui-starter/tree/nuxt3-ui3) |
+| Nuxt 4 + Nuxt UI 3     | [`nuxt4-ui3`](https://github.com/ersankarimi/nuxt-ui-starter/tree/nuxt4-ui3) |
 
 ---
 
 ## ⚖ License
 
 This project is licensed under the **MIT License**.
+Created by [@ersankarimi](https://github.com/ersankarimi)
