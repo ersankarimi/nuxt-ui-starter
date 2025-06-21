@@ -1,9 +1,9 @@
-# Nuxt + UI Starter – `nuxt3-ui3`
+# Nuxt + UI Starter – `nuxt4-ui3`
 
-> 🧩 This branch contains the **Nuxt 3 + Nuxt UI 3** starter template.
+> 🧩 This branch contains the **Nuxt 4 + Nuxt UI 3** starter template.
 > For other setups, see the [available branches](https://github.com/ersankarimi/nuxt-ui-starter/branches).
 
-A minimal **Nuxt 3** starter template using **Nuxt UI v3**, with essential configurations for building modern web applications. Includes useful Nuxt modules, security enhancements, and predefined scripts for easy development and deployment.
+A minimal **Nuxt 4** starter template using **Nuxt UI v3**, with essential configurations for building modern web applications. Includes useful Nuxt modules, security enhancements, and predefined scripts for easy development and deployment.
 
 ---
 
@@ -185,8 +185,8 @@ This repository contains multiple Nuxt + UI setups. To use a different one, swit
 | Template               | Branch                                                                       |
 | ---------------------- | ---------------------------------------------------------------------------- |
 | Nuxt 3 + Nuxt UI 2     | [`nuxt3-ui2`](https://github.com/ersankarimi/nuxt-ui-starter/tree/nuxt3-ui3) |
-| **Nuxt 3 + Nuxt UI 3** | `nuxt3-ui3` ← you are here                                                   |
-| Nuxt 4 + Nuxt UI 3     | [`nuxt4-ui3`](https://github.com/ersankarimi/nuxt-ui-starter/tree/nuxt4-ui3) |
+| Nuxt 3 + Nuxt UI 3     | [`nuxt3-ui3`](https://github.com/ersankarimi/nuxt-ui-starter/tree/nuxt4-ui3) |
+| **Nuxt 4 + Nuxt UI 3** | `nuxt4-ui3` ← you are here                                                   |
 
 ---
 
